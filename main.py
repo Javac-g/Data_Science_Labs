@@ -23,6 +23,7 @@ v = numpy.array([[1, 5, 1],
 
 vt = numpy.array(v).transpose()
 vm = vt.dot(v)
+vm = vt @ v
 print(vt)
 det = numpy.linalg.det(vm)
 print("************************")
